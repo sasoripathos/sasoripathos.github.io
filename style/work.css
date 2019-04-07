@@ -56,5 +56,19 @@
 @media screen and (max-width: 700px) {
 	.info {
 		grid-template-columns: 90%;
+		font-size: medium;
+	}
+
+	.ptitle {
+		font-size: 100%;
+	}
+
+	.pdes {
+		font-size: medium;
+	}
+
+	.project {
+		margin-top: 2.5%;
+		margin-bottom: 2.5%;
 	}
 }
