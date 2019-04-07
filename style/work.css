@@ -71,4 +71,9 @@
 		margin-top: 2.5%;
 		margin-bottom: 2.5%;
 	}
+
+	.project:hover {
+		transform: scale(1);
+		background-color: rgba(25, 31, 69, 0.75);
+	}
 }
