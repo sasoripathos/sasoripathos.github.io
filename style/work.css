@@ -32,7 +32,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
 	padding: 1% 1%;
-	font-family: "Gill Sans", sans-serif;
 }
 
 .project:hover {
@@ -43,7 +42,8 @@
 .ptitle {
 	text-align: center;
 	font-size: 150%;
-	/*font-weight: bold;*/
+	font-family: 'Bitter', serif;
+	font-weight: bold;
 
 }
 
@@ -51,6 +51,7 @@
 	margin-top: 2%;
 	padding: 0 2%;
 	margin-bottom: 2%;
+	font-family: 'Roboto', sans-serif;
 }
 
 .ptitle > a {
