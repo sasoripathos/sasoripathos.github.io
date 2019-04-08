@@ -24,6 +24,10 @@
 .infopiece {
 	padding: 1% 1%;
 	background-color: rgba(25, 31, 69, 0.75);
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	opacity: 0;
 	animation-name: lianimation;
 	animation-duration: 1s;
@@ -59,6 +63,17 @@
 }
 
 @media screen and (max-width: 700px) {
+	@keyframes lianimation {
+		0% {
+			opacity: 0;
+			transform: translateX(100%);
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
 	.info {
 		font-size: medium;
 		margin-right: auto;

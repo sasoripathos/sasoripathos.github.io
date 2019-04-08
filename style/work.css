@@ -22,11 +22,15 @@
 		transform: translateY(0);
 	}
 }
+
 .project {
 	display: grid;
 	grid-template-rows: auto auto auto;
-	/*border: solid 1px black;*/
 	background-color: rgba(25, 31, 69, 0.75);
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	padding: 1% 1%;
 	font-family: "Gill Sans", sans-serif;
 }
@@ -54,6 +58,17 @@
 }
 
 @media screen and (max-width: 700px) {
+	@keyframes infoannimation {
+		0% {
+			opacity: 0;
+			transform: translateX(100%);
+		}
+
+		100% {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
 	.info {
 		grid-template-columns: 90%;
 		font-size: medium;
@@ -73,7 +88,7 @@
 	}
 
 	.project:hover {
-		transform: scale(1);
+		transform: none;
 		background-color: rgba(25, 31, 69, 0.75);
 	}
 }
