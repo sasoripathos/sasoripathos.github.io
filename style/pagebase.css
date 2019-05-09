@@ -8,13 +8,10 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	color: white;
 	background-attachment: fixed;
-	/*animation-name: bg;
-	animation-duration: 3s;
-	animation-fill-mode: forwards;*/
 }
 
 a {
@@ -51,7 +48,7 @@ a {
 	color: white;
 	padding: 5px;
 	text-align: center;
-	font-family: Georgia, Times, Times New Roman, serif;
+	font-family: 'Lobster', cursive;
 }
 .navbar > a:hover {
 	color: yellow;
