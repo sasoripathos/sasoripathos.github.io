@@ -59,6 +59,10 @@
 	animation-delay: 2.25s;
 }
 
+.infopiece:nth-child(7) {
+	animation-delay: 2.5s;
+}
+
 .infopiece > a {
 	color: #FFE35B;
 }
