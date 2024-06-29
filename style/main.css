@@ -24,7 +24,7 @@
 
 .info {
 	opacity: 0;
-	margin-top: 10%;
+	margin-top: 12.5%;
 	margin-left: 10%;
 	margin-right: 10%;
 	text-align: center;
@@ -43,12 +43,12 @@
 .job {
 	font-family: 'Roboto', sans-serif;
 	font-size: 150%;
-	color: #FFE35B;
+	color: #F6FF00;
 	font-weight: normal;
 }
 
 h5 > a {
-	color: #F8991D;
+	color: #FFA80E;
 }
 
 .links {
@@ -63,6 +63,7 @@ h5 > a {
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	background-color: white;
 }
 .github {
     background-image: url("../media/github.png");

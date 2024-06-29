@@ -52,7 +52,7 @@ a {
 }
 .navbar > a:hover {
 	color: yellow;
-	background-color: #01244B;
+	background-color: #3b8ac1;
 }
 
 @media screen and (max-width: 700px) {
